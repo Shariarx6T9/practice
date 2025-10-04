@@ -1,0 +1,14 @@
+export const doctors = [
+  { id: 'd1', name: 'Dr. Ayesha Rahman', education: 'MBBS, MD', specialty: 'Cardiologist', experience: '12 yrs', reg: 'REG-001', fee: 150, workplace: 'City Hospital', availability: ['Monday','Wednesday','Friday'], image: '/assets/doctor-sample.png' },
+  { id: 'd2', name: 'Dr. Imran Hossain', education: 'MBBS, FCPS', specialty: 'Dermatologist', experience: '8 yrs', reg: 'REG-002', fee: 80, workplace: 'East Clinic', availability: ['Tuesday','Thursday'], image: '/assets/doctor-sample.png' },
+  { id: 'd3', name: 'Dr. Laila Khan', education: 'MBBS, MS', specialty: 'Neurologist', experience: '15 yrs', reg: 'REG-003', fee: 200, workplace: 'Neuro Care', availability: ['Monday','Tuesday','Friday'], image: '/assets/doctor-sample.png' },
+  { id: 'd4', name: 'Dr. Faisal Ahmed', education: 'MBBS, MD', specialty: 'Pediatrician', experience: '9 yrs', reg: 'REG-004', fee: 60, workplace: 'Child Health Center', availability: ['Wednesday','Saturday'], image: '/assets/doctor-sample.png' },
+  { id: 'd5', name: 'Dr. Sultana Begum', education: 'MBBS, DGO', specialty: 'Gynecologist', experience: '11 yrs', reg: 'REG-005', fee: 120, workplace: 'Women Care', availability: ['Thursday','Friday'], image: '/assets/doctor-sample.png' },
+  { id: 'd6', name: 'Dr. Nabil Karim', education: 'MBBS, MS', specialty: 'Orthopedist', experience: '13 yrs', reg: 'REG-006', fee: 140, workplace: 'Ortho Plus', availability: ['Monday','Saturday'], image: '/assets/doctor-sample.png' },
+  { id: 'd7', name: 'Dr. Rina Das', education: 'MBBS', specialty: 'ENT', experience: '7 yrs', reg: 'REG-007', fee: 70, workplace: 'Sound Clinic', availability: ['Tuesday','Friday'], image: '/assets/doctor-sample.png' },
+  { id: 'd8', name: 'Dr. Mahmud H.', education: 'MBBS, FCPS', specialty: 'General Surgeon', experience: '18 yrs', reg: 'REG-008', fee: 220, workplace: 'General Hospital', availability: ['Monday','Thursday'], image: '/assets/doctor-sample.png' },
+  { id: 'd9', name: 'Dr. Jahanara S.', education: 'MBBS, MD', specialty: 'Ophthalmologist', experience: '10 yrs', reg: 'REG-009', fee: 90, workplace: 'Eye Center', availability: ['Wednesday','Friday'], image: '/assets/doctor-sample.png' },
+  { id: 'd10', name: 'Dr. Saber Iqbal', education: 'MBBS', specialty: 'Psychiatrist', experience: '6 yrs', reg: 'REG-010', fee: 110, workplace: 'Mind Care', availability: ['Tuesday','Saturday'], image: '/assets/doctor-sample.png' },
+  { id: 'd11', name: 'Dr. Parvez Ali', education: 'MBBS, MS', specialty: 'Urologist', experience: '14 yrs', reg: 'REG-011', fee: 160, workplace: 'Uro Health', availability: ['Thursday','Friday'], image: '/assets/doctor-sample.png' },
+  { id: 'd12', name: 'Dr. Sonia M.', education: 'MBBS, DLO', specialty: 'ENT', experience: '9 yrs', reg: 'REG-012', fee: 75, workplace: 'Ear Clinic', availability: ['Monday','Wednesday'], image: '/assets/doctor-sample.png' }
+]

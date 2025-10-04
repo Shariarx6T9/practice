@@ -1,0 +1,22 @@
+/* minimal reset + styles */
+:root{--accent:#0ea5a4;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0;background:#f8fafc;color:#0f172a}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e6eef5}
+.logo{display:flex;gap:12px;align-items:center}
+.btn{background:var(--accent);color:white;border:none;padding:8px 14px;border-radius:8px;cursor:pointer;transition:background 0.2s}
+.btn:hover{background:#0d9488}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:white;padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+.footer{background:#0f172a;color:white;padding:24px;text-align:center;margin-top:32px}
+.badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#ecfccb;color:#365314;font-weight:600}
+.loader{height:4px;background:linear-gradient(90deg, #e0f2f1 0%, #0ea5a4 50%, #e0f2f1 100%);animation:loading 1s linear infinite}
+@keyframes loading{from{background-position:0%}to{background-position:200%}}
+.banner{border:1px solid #0ea5a4; background:linear-gradient(90deg, #e0f2f1 0%, #f0fdfa 100%);position:relative; overflow:hidden;}
+.success-card{display:flex;flex-direction:column;align-items:center;padding:16px;text-align:center;}
+
+@media (max-width: 768px) {
+    .grid-3 { grid-template-columns: 1fr; }
+    .nav div { flex-wrap: wrap; justify-content: center; }
+}
